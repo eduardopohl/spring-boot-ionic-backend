@@ -43,7 +43,8 @@ import com.eduardopohl.cursomc.security.JWTUtil;
 
 		private static final String[] PUBLIC_MATCHERS_GET = { 
 				"/produtos/**", 
-				"/categorias/**"
+				"/categorias/**",
+				"/estados/**"
 		};
 		
 		private static final String[] PUBLIC_MATCHERS_POST = { 
